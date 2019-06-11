@@ -18,4 +18,3 @@ insert into users(username,password,enabled) values('user_1','$2a$10$XrtbTlBsXkN
 
 insert into authorities(username,authority) values('user_1','ROLE_USER');
 insert into authorities(username,authority) values('admin','ROLE_ADMIN');
-insert into authorities(username,authority) values('admin','ROLE_USER');
