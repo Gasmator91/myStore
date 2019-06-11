@@ -27,7 +27,7 @@ public class RestClientConfig {
     private HttpClient httpClient() {
         CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY,
-                new UsernamePasswordCredentials("user_1", "1"));
+                new UsernamePasswordCredentials("admin", "1"));
 
         return HttpClientBuilder
                 .create()
